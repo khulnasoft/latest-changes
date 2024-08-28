@@ -31,17 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: docker://khulnasoft/latest-changes:0.3.0
+      - uses: khulnasoft/latest-changes:0.3.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Note**: you can also use the GitHub action directly instead of with Docker, but that would take an extra minute:
-
-```YAML
-      # - uses: docker://khulnasoft/latest-changes:0.3.0
-      # This is slower but also works
-      - uses: khulnasoft/latest-changes@0.3.0
 ```
 
 In this minimal example, it uses all the default configurations.
@@ -206,19 +198,6 @@ jobs:
 In this custom config:
 
 * The main branch is `master` instead of `main`.
-* It uses the GitHub action directly:
-
-```
-khulnasoft/latest-changes@0.3.0
-```
-
-instead of with Docker:
-
-```
-docker://khulnasoft/latest-changes:0.3.0
-```
-
-**Note**: that would make every run about 1 min slower, but you can do that if you prefer it 🤷.
 
 * It modifies the file `docs/release-notes.md` instead of the default `README.md`.
 * It looks for a header in that file with:
@@ -298,7 +277,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
-      - uses: docker://khulnasoft/latest-changes:0.3.0
+      - uses: khulnasoft/latest-changes:0.3.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
