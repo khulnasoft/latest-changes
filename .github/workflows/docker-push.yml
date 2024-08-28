@@ -33,6 +33,7 @@ jobs:
           tags: |
             khulnasoft/latest-changes:latest
             ghcr.io/khulnasoft/latest-changes:latest
+          file: base.dockerfile
       - name: Build and push tag
         if: github.event_name == 'release'
         uses: docker/build-push-action@v6
