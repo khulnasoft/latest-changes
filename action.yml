@@ -1,5 +1,5 @@
-name: Khulnasoft's Latest Changes
-author: Md Sulaiman <infosulaimanbd@gmail.com>
+name: KhulnaSoft's Latest Changes
+author: Md Sulaiman <admin@khulnasoft.com>
 description: Update the release notes with the "latest changes" right after a PR is merged.
 inputs:
   token:
@@ -13,8 +13,8 @@ inputs:
     default: README.md
     required: false
   latest_changes_header:
-    description: Header to search for in the Latest Changes Actionfile, this action will add the changes right after that string.
-    default: '### Latest Changes'
+    description: Header to search for in the latest changes file, this action will add the changes right after that string.
+    default: "### Latest Changes"
     required: false
   template_file:
     description: To override the default message with a custom Jinja2 template, use a path relative to the repo.
@@ -22,12 +22,12 @@ inputs:
     default: /app/latest_changes/latest-changes.jinja2
   end_regex:
     description: A RegEx string that marks the end of this release, so it normally matches the start of the header of the next release section, normally the same header level as `latest_changes_header`, so, if the `latest_changes_header` is `### Latest Changes`, the content for the next release below is probably something like `### 0.2.0`, then the `end_regex` should be `^### `. By default it is `(^### .*)|(^## .*)` to detect a possible next header, e.g. for the license.
-    default: '(^### .*)|(^## .*)'
+    default: "(^### .*)|(^## .*)"
     required: false
   debug_logs:
     description: Use debug=True to enable more logging, useful to see the object shape for custom Jinja2 templates
     required: false
-    default: 'false'
+    default: "false"
   labels:
     description: A JSON array of JSON objects that contain a key `label` with the label you would add to each PR, and a key `header` with the header text that should be added to the release notes for that label. The order is important, the first label from the list that is found in your PR is the one that will be used. So, if you have a PR that has both labels `feature` and `bug`, if you use the default configuration, it will show up in the section for features, if you want it to show up in the section for bugs you would need to change the order of the list of this configuration to have `bug` first. Note that this JSON has to be passed as a string because that's the only thing that GitHub Actions support for configurations.
     required: false
@@ -45,7 +45,7 @@ inputs:
       ]
   label_header_prefix:
     description: A prefix to put before each label's header. This is also used to detect where the next label header starts. By default it is `#### `, so the headers will look like `#### Features`.
-    default: '#### '
+    default: "#### "
 runs:
   using: docker
   image: Dockerfile
