@@ -43,3 +43,4 @@ jobs:
           tags: |
             khulnasoft/latest-changes:${{ github.event.release.tag_name }}
             ghcr.io/khulnasoft/latest-changes:${{ github.event.release.tag_name }}
+          file: base.dockerfile
