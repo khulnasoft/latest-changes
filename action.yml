@@ -1,5 +1,5 @@
-name: KhulnaSoft's Latest Changes
-author: Md Sulaiman <admin@khulnasoft.com>
+name: Khulnasoft's Latest Changes
+author: KhulnaSoft Ltd <info@khulnasoft.com>
 description: Update the release notes with the "latest changes" right after a PR is merged.
 inputs:
   token:

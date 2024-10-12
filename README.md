@@ -302,8 +302,6 @@ So, the commits will still be shown as made by `github-actions`.
 
 ### Latest Changes - Latest Changes 🤷
 
-* ⬆ Bump actions/upload-artifact from 3 to 4. PR [#1](https://github.com/khulnasoft/latest-changes/pull/1) by [@dependabot[bot]](https://github.com/apps/dependabot).
-
 #### Docs
 
 - 📝 Tweak and fix tag to use. PR [#71](https://github.com/khulnasoft/latest-changes/pull/71) by [@khulnasoft](https://github.com/khulnasoft).
