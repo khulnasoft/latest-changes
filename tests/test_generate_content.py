@@ -800,7 +800,7 @@ def test_multiple_header_sections():
 
     ### Docs
 
-    * ✏ Fix link to FastAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
+    * ✏ Fix link to ReadyAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
     * ✏ Fix typo in `docs/tutorial/first-steps.md`, from `asyncio` to `anyio`. PR [#11](https://github.com/khulnasoft/asyncer/pull/11) by [@windson](https://github.com/windson).
     * ✏️ Fix broken link in README and index. PR [#9](https://github.com/khulnasoft/asyncer/pull/9) by [@vrslev](https://github.com/vrslev).
 
@@ -884,7 +884,7 @@ def test_multiple_header_sections():
 
     ### Docs
 
-    * ✏ Fix link to FastAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
+    * ✏ Fix link to ReadyAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
     * ✏ Fix typo in `docs/tutorial/first-steps.md`, from `asyncio` to `anyio`. PR [#11](https://github.com/khulnasoft/asyncer/pull/11) by [@windson](https://github.com/windson).
     * ✏️ Fix broken link in README and index. PR [#9](https://github.com/khulnasoft/asyncer/pull/9) by [@vrslev](https://github.com/vrslev).
 
@@ -938,7 +938,7 @@ def test_multiple_header_sections_label():
 
     ### Docs
 
-    * ✏ Fix link to FastAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
+    * ✏ Fix link to ReadyAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
     * ✏ Fix typo in `docs/tutorial/first-steps.md`, from `asyncio` to `anyio`. PR [#11](https://github.com/khulnasoft/asyncer/pull/11) by [@windson](https://github.com/windson).
     * ✏️ Fix broken link in README and index. PR [#9](https://github.com/khulnasoft/asyncer/pull/9) by [@vrslev](https://github.com/vrslev).
 
@@ -1023,7 +1023,7 @@ def test_multiple_header_sections_label():
 
     ### Docs
 
-    * ✏ Fix link to FastAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
+    * ✏ Fix link to ReadyAPI and Friends newsletter. PR [#13](https://github.com/khulnasoft/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
     * ✏ Fix typo in `docs/tutorial/first-steps.md`, from `asyncio` to `anyio`. PR [#11](https://github.com/khulnasoft/asyncer/pull/11) by [@windson](https://github.com/windson).
     * ✏️ Fix broken link in README and index. PR [#9](https://github.com/khulnasoft/asyncer/pull/9) by [@vrslev](https://github.com/vrslev).
 
