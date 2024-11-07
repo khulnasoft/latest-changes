@@ -304,6 +304,10 @@ So, the commits will still be shown as made by `github-actions`.
 
 * ⬆ Bump khulnasoft/issue-manager from 0.5.0 to 0.5.1. PR [#11](https://github.com/khulnasoft/latest-changes/pull/11) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
+#### Refactors
+
+* Update main.py. PR [#12](https://github.com/khulnasoft/latest-changes/pull/12) by [@NxPKG](https://github.com/NxPKG).
+
 #### Docs
 
 - 📝 Tweak and fix tag to use. PR [#71](https://github.com/khulnasoft/latest-changes/pull/71) by [@khulnasoft](https://github.com/khulnasoft).
