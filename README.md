@@ -306,6 +306,7 @@ So, the commits will still be shown as made by `github-actions`.
 
 #### Refactors
 
+* Revert "♻️ Refector Update main.py". PR [#13](https://github.com/khulnasoft/latest-changes/pull/13) by [@NxPKG](https://github.com/NxPKG).
 * Update main.py. PR [#12](https://github.com/khulnasoft/latest-changes/pull/12) by [@NxPKG](https://github.com/NxPKG).
 
 #### Docs
