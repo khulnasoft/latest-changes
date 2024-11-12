@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: khulnasoft/latest-changes@0.3.1
+      - uses: khulnasoft/latest-changes@0.3.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -165,7 +165,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: khulnasoft/latest-changes@0.3.1
+    - uses: khulnasoft/latest-changes@0.3.2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         latest_changes_file: docs/release-notes.md
@@ -278,7 +278,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
-      - uses: khulnasoft/latest-changes@0.3.1
+      - uses: khulnasoft/latest-changes@0.3.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 ```
