@@ -302,6 +302,7 @@ So, the commits will still be shown as made by `github-actions`.
 
 ### Latest Changes - Latest Changes 🤷
 
+* ✨ Prevent CI workflows from running on a latest changes commit, add […. PR [#15](https://github.com/khulnasoft/latest-changes/pull/15) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
 * ⬆ Bump khulnasoft/issue-manager from 0.5.0 to 0.5.1. PR [#11](https://github.com/khulnasoft/latest-changes/pull/11) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
 #### Refactors
