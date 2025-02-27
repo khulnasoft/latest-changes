@@ -7,7 +7,7 @@ from typing import List, Optional, Union
 
 from github import Github
 from github.PullRequest import PullRequest
-from jinja2 import Template
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pydantic import BaseModel, SecretStr
 from pydantic_settings import BaseSettings
 
@@ -92,7 +92,11 @@ def generate_content(
             f"The latest changes file at: {settings.input_latest_changes_file} doesn't seem to contain the header RegEx: {settings.input_latest_changes_header}"
         )
     template_content = settings.input_template_file.read_text("utf-8")
-    template = Template(template_content)
+    env = Environment(
+        loader=FileSystemLoader(searchpath=str(settings.input_template_file.parent)),
+        autoescape=select_autoescape(['html', 'xml'])
+    )
+    template = env.from_string(template_content)
     message = template.render(pr=pr)
     if message in content:
         raise RuntimeError(
