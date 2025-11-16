@@ -302,6 +302,7 @@ So, the commits will still be shown as made by `github-actions`.
 
 ### Latest Changes - Latest Changes 🤷
 
+* ⬆ Bump actions/checkout from 4 to 5. PR [#3](https://github.com/khulnasoft-bot/latest-changes/pull/3) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 4 to 5. PR [#2](https://github.com/khulnasoft-bot/latest-changes/pull/2) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/setup-python from 5 to 6. PR [#1](https://github.com/khulnasoft-bot/latest-changes/pull/1) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * Potential fix for code scanning alert no. 2: Jinja2 templating with autoescape=False. PR [#17](https://github.com/khulnasoft/latest-changes/pull/17) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
