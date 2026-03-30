@@ -313,6 +313,7 @@ So, the commits will still be shown as made by `github-actions`.
 
 ### Latest Changes - Latest Changes 🤷
 
+* ⬆ Bump actions/checkout from 5 to 6. PR [#6](https://github.com/khulnasoft-bot/latest-changes/pull/6) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/cache from 4 to 5. PR [#7](https://github.com/khulnasoft-bot/latest-changes/pull/7) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 5 to 6. PR [#8](https://github.com/khulnasoft-bot/latest-changes/pull/8) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 📝 Add permissions needed for private repos. PR [#9](https://github.com/khulnasoft-bot/latest-changes/pull/9) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
