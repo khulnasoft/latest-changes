@@ -29,6 +29,9 @@ on:
 jobs:
   latest-changes:
     runs-on: ubuntu-latest
+    # Needed for private repos
+    permissions:
+      pull-requests: read
     steps:
       - uses: actions/checkout@v4
       - uses: khulnasoft/latest-changes@0.3.2
@@ -164,6 +167,9 @@ on:
 jobs:
   latest-changes:
     runs-on: ubuntu-latest
+    # Needed for private repos
+    permissions:
+      pull-requests: read
     steps:
     - uses: actions/checkout@v2
     - uses: khulnasoft/latest-changes@0.3.2
@@ -276,6 +282,9 @@ on:
 jobs:
   latest-changes:
     runs-on: ubuntu-latest
+    # Needed for private repos
+    permissions:
+      pull-requests: read
     steps:
       - uses: actions/checkout@v4
         with:
