@@ -313,6 +313,7 @@ So, the commits will still be shown as made by `github-actions`.
 
 ### Latest Changes - Latest Changes 🤷
 
+* 📝 Add permissions needed for private repos. PR [#9](https://github.com/khulnasoft-bot/latest-changes/pull/9) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
 * 📝 Tweak docs with new label infra. PR [#4](https://github.com/khulnasoft-bot/latest-changes/pull/4) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
 * ⬆ Bump actions/checkout from 4 to 5. PR [#3](https://github.com/khulnasoft-bot/latest-changes/pull/3) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 4 to 5. PR [#2](https://github.com/khulnasoft-bot/latest-changes/pull/2) by [@dependabot[bot]](https://github.com/apps/dependabot).
