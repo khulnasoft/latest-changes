@@ -84,6 +84,27 @@ def generate_content(
     pr: Union[PullRequest, TemplateDataPR],
     labels: list[str],
 ) -> str:
+    """
+    Generates updated release notes by inserting a rendered pull request message.
+    
+    This function takes the current release notes and updates them by rendering a
+    message from a Jinja2 template using the pull request data. It first locates a
+    header in the release notes based on a regex from the settings, then renders the
+    template from a template file. The function checks that the message has not been
+    previously added, extracts release note sections according to configured labels,
+    and inserts the new message into the appropriate section or into the sectionless
+    content. Finally, it reassembles and returns the updated release notes content.
+    
+    Args:
+        content: The current release notes content.
+        settings: A Settings instance containing configuration parameters such as file
+            paths, header regex patterns, and label definitions.
+        pr: A pull request object or TemplateDataPR providing data for template rendering.
+        labels: A list of label identifiers indicating which sections should be updated.
+    
+    Returns:
+        The updated release notes content as a string.
+    """
     header_match = re.search(
         settings.input_latest_changes_header, content, flags=re.MULTILINE
     )
